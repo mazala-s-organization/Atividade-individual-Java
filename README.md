@@ -1,8 +1,8 @@
 # Atividade-individual-Java
 
-📌 Sur Le Fond 
+📌 Sur Le Fond (Continuação individual)
 
-A Sur Le Fond é uma marca criada com o objetivo de oferecer produtos diversificados e de alta qualidade, desenvolvidos para que cada pessoa se sinta confiante e bem consigo mesma. A proposta da marca é entregar soluções que realmente se adaptem aos diferentes tipos de pele e cabelo, promovendo cuidado, autenticidade e autoestima.
+Este projeto tem como objetivo desenvolver um sistema simples e funcional para um site de cosméticos. A solução foi criada no FlutterFlow, onde foram planejadas as telas de Login, Cadastro, Tela inicial, Endereço e Dados do Usuário, todas com navegação completa e integração com a API.
 
 
 ✨ Funcionalidades das telas
