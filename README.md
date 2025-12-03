@@ -31,4 +31,4 @@ Render – Deploy/hospedagem das funcionalidades do backend.
 
 --------------------------------------------------------------------------------------------------------
 https://atividade-individual-java.onrender.com/aula/swagger-ui/index.html#/
-Julia M. Mazala C. 2º Info B
+Julia M. Mazala C. -2º Info B
