@@ -3,6 +3,7 @@ package com.senai.infob.individual.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.senai.infob.individual.models.Endereco;
 import com.senai.infob.individual.models.Usuario;
 import com.senai.infob.individual.repositories.UsuarioRepository;
 
@@ -36,6 +37,19 @@ public class UsuarioService {
         }
 
         return usuario;
+    }
+
+    public Usuario buscarPorId(Integer id) {
+        return usuarioRepository.findById(id).get();
+    }
+
+     public Boolean  delete(Integer id) {
+        Usuario usuario = usuarioRepository.findById(id).get();
+        if(usuario != null) {
+            usuarioRepository.deleteById(id);
+            return true;
+        }
+        return false;
     }
     
     public boolean atualizar(Usuario usuario, Integer id) {

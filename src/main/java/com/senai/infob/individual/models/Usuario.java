@@ -1,13 +1,10 @@
 package com.senai.infob.individual.models;
 
-import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
@@ -30,20 +27,15 @@ public class Usuario {
     @Column(name = "senha")
     private String senha;
 
-   @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "endereco_id", nullable = false)
-    private Endereco endereco;
-
     public Usuario() {
     }
 
-    public Usuario(Integer id, String nomeCompleto, String telefone, String email, String senha, Endereco endereco) {
+    public Usuario(Integer id, String nomeCompleto, String telefone, String email, String senha) {
         this.id = id;
         this.nomeCompleto = nomeCompleto;
         this.telefone = telefone;
         this.email = email;
         this.senha = senha;
-        this.endereco = endereco;
     }
 
     public Integer getId() {
@@ -86,12 +78,5 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public Endereco getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(Endereco endereco) {
-        this.endereco = endereco;
-    }
     
 }
