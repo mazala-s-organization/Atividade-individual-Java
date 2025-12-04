@@ -30,6 +30,6 @@ GitHub – Guarda o histórico completo do desenvolvimento do código, dentro do
 Render – Deploy/hospedagem das funcionalidades do backend.
 
 --------------------------------------------------------------------------------------------------------
-link do deploy: https://atividade-individual-java.onrender.com/aula/swagger-ui/index.html#/
-link da documentação: https://docs.google.com/document/d/1oJk3_aVS2ThtT9yAaeTg225AJ6qGpvk9SHhwkQaba4Q/edit?usp=sharing
+https://atividade-individual-java.onrender.com/aula/swagger-ui/index.html#/
+https://docs.google.com/document/d/1oJk3_aVS2ThtT9yAaeTg225AJ6qGpvk9SHhwkQaba4Q/edit?usp=sharing
 Julia M. Mazala C. -2º Info B
