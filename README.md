@@ -1,7 +1,7 @@
 # Atividade-individual-Java
 
 📌 Sur Le Fond (Continuação individual)
-
+---------
 Este projeto tem como objetivo desenvolver um sistema simples e funcional para um site de cosméticos. A solução foi criada no FlutterFlow, onde foram planejadas as telas de Login, Cadastro, Tela inicial, Endereço e Dados do Usuário, todas com navegação completa e integração com a API.
 
 -----------------------------------------------------------------------------------------------------------
