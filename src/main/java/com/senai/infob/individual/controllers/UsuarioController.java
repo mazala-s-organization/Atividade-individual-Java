@@ -1,5 +1,7 @@
 package com.senai.infob.individual.controllers;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,6 +36,11 @@ public class UsuarioController {
     @GetMapping("/buscar/{id}")
     public Usuario buscarPorId(@PathVariable Integer id) {
         return usuarioService.buscarPorId(id);
+    }
+
+    @GetMapping("/listar")
+    public List<Usuario> listarTodos() {
+        return usuarioService.listarTodos();
     }
     @PutMapping("/atualizar/{id}")
     public Usuario atualizar(@PathVariable Integer id, @RequestBody Usuario usuario) {

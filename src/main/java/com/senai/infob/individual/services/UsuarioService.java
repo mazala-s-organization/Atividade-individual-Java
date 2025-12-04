@@ -1,9 +1,10 @@
 package com.senai.infob.individual.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.senai.infob.individual.models.Endereco;
 import com.senai.infob.individual.models.Usuario;
 import com.senai.infob.individual.repositories.UsuarioRepository;
 
@@ -41,6 +42,10 @@ public class UsuarioService {
 
     public Usuario buscarPorId(Integer id) {
         return usuarioRepository.findById(id).get();
+    }
+
+     public List<Usuario> listarTodos() {
+        return usuarioRepository.findAll();
     }
 
      public Boolean  delete(Integer id) {

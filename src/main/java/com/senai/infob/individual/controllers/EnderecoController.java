@@ -1,5 +1,7 @@
 package com.senai.infob.individual.controllers;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -38,7 +40,10 @@ public class EnderecoController {
     public Endereco buscarPorId(@PathVariable Integer id) {
         return enderecoService.buscarPorId(id);
     }
-
+    @GetMapping("/listar")
+    public List<Endereco> listarTodos() {
+        return enderecoService.listarTodos();
+    }
     @PutMapping("/atualizar/{id}")
     public Endereco atualizar(@PathVariable Integer id, @RequestBody Endereco endereco) {
         if(enderecoService.atualizar(endereco, id)) {
