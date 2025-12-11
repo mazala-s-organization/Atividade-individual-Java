@@ -1,11 +1,11 @@
 # Atividade-individual-Java
 
-📌 Sur Le Fond (Continuação individual)
+Sur Le Fond (Continuação individual)
 ---------
 Este projeto tem como objetivo desenvolver um sistema simples e funcional para um site de cosméticos. A solução foi criada no FlutterFlow, onde foram planejadas as telas de Login, Cadastro, Tela inicial, Endereço e Dados do Usuário, todas com navegação completa e integração com a API.
 
 -----------------------------------------------------------------------------------------------------------
-✨ Funcionalidades das telas
+Funcionalidades das telas
 
 --> Página "cadastro" possui um formulário para criar uma nova conta, coleta informações básicas do usuário (nome, e-mail, senha) e armazena os dados do usuário no sistema.
 
@@ -19,7 +19,7 @@ Este projeto tem como objetivo desenvolver um sistema simples e funcional para u
 referência.
 
 --------------------------------------------------------------------------------------------------------
-🛠️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 FlutterFlow – Construção das telas do aplicativo.
 
